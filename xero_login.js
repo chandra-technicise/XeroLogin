@@ -8,7 +8,7 @@
 
 XeroLogin = Class.create({
   
-  xero_login_url : "YOUR_XERO_LOGIN_URL",
+  xero_login_url : "http://localhost:8000/", 
   
   initialize: function(xero_access_expiry, callback, opts) {
     
